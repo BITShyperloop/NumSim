@@ -13,6 +13,7 @@ The code is structured as follows:
 	of data storage, caching and retrieval. The data itself may be 
 	* Unstructured (E.g. Land value information)
 	* Structured (Altitude data) @akulsareen
+
 	In both cases an interpolation scheme is needed to answer queries that don't lie at 
 	points. This will have to be a fast method of the class. @akashrajkn
 2. A cost function which will return the cost of a track represented by a BSpline. The 
