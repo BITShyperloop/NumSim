@@ -1,0 +1,12 @@
+# basic .gitattributes for octave repo
+
+# set default behaviour
+* text=auto
+
+# source files
+*.m text
+
+# files truly binary and shouldn't be modified
+*.jpg  binary
+*.jpeg binary
+*.png  binary
