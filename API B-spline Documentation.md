@@ -5,8 +5,8 @@
     1. Install Octave.:  https://www.gnu.org/software/octave/ 
     2. Download the nurbs Pacakge from:  http://octave.sourceforge.net/nurbs/index.html
     3. At Octave Command Prompt type   ( Same directory as the downloaded file)
-        ..1. pkg install nurbs-<version>.tar.gz
-        ..2. pkg load nurbs
+        1. pkg install nurbs-<version>.tar.gz
+        2. pkg load nurbs
 
 
 ## B-Spine
@@ -21,7 +21,8 @@
 
     Given control points and knot vector the given definition will generate a smooth curve.
     That curve would be used to optimize the route of the hyperloop.
-    Knot vector are used to control the amount of points affected near a particular control point due to a change in it. 
+    Knot vector are used to control the amount of points affected near a particular control point
+     due to a change in it. 
     Uniform knot vector has same number of affected control points for change in any control point.  
 
 ![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/uniform-knots.png "Uniform Knot Vector")
