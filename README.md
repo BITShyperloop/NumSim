@@ -6,7 +6,7 @@
 1. Install Octave.:  https://www.gnu.org/software/octave/ 
 2. Download the nurbs Pacakge from:  http://octave.sourceforge.net/nurbs/index.html
 3. At Octave Command Prompt type   ( Same directory as the downloaded file)
-   1. pkg install nurbs-version.tar.gz
+   1. pkg install nurbs-version.tar.gz  (put version number in place of version)
    2. pkg load nurbs
 
 ## Code layout
