@@ -2,11 +2,11 @@
 
 ## Getting Started
 
-    1. Install Octave.:  https://www.gnu.org/software/octave/ 
-    2. Download the nurbs Pacakge from:  http://octave.sourceforge.net/nurbs/index.html
-    3. At Octave Command Prompt type   ( Same directory as the downloaded file)
-        1. pkg install nurbs-<version>.tar.gz
-        2. pkg load nurbs
+1. Install Octave.:  https://www.gnu.org/software/octave/ 
+2. Download the nurbs Pacakge from:  http://octave.sourceforge.net/nurbs/index.html
+3. At Octave Command Prompt type   ( Same directory as the downloaded file)
+      1. pkg install nurbs-(version).tar.gz
+      2. pkg load nurbs
 
 
 ## B-Spine
@@ -14,8 +14,8 @@
     Given n+1 control points P0,P1,....Pn and a knot vector U = {u0,u1,....um},
     The B-spline curve of a degree is defined by
 
-![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/bspline-curve-eqn.jpg "B-Spline Definition")
-![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/B-spline_curve.png "B-Spline")
+![alt text](https://github.com/BITShyperloop/NumSim/blob/master/images/bspline-curve-eqn.jpg "B-Spline Definition")
+![alt text](https://github.com/BITShyperloop/NumSim/blob/master/images/B-spline_curve.png "B-Spline")
 
     (The black dots are the control points.)
 
@@ -25,11 +25,11 @@
      due to a change in it. 
     Uniform knot vector has same number of affected control points for change in any control point.  
 
-![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/uniform-knots.png "Uniform Knot Vector")
+![alt text](https://github.com/BITShyperloop/NumSim/blob/master/images/uniform-knots.png "Uniform Knot Vector")
  
     Non-Uniform control points result in variation of that number.
 
-![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/non-uniform-knots.png "Non Uniform Knot Vector")
+![alt text](https://github.com/BITShyperloop/NumSim/blob/master/images/non-uniform-knots.png "Non Uniform Knot Vector")
 
 ## Functions
 
@@ -81,7 +81,7 @@
     %Plotting the B-Spline curve
     plot(p(1,:) ,p(2,:));
 
-![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/bspeval.jpeg "bspeval graph")
+![alt text](https://github.com/BITShyperloop/NumSim/blob/master/images/bspeval.jpeg "bspeval graph")
 
 
 
@@ -145,7 +145,7 @@
     plot(u,sp,'color','red',';2nd derivative;');
 
 
-![alt text](https://github.com/BITShyperloop/NumSim/blob/megcharu/bspderiv.jpeg "bspderiv graph")
+![alt text](https://github.com/BITShyperloop/NumSim/blob/master/images/bspderiv.jpeg "bspderiv graph")
 
 
 
